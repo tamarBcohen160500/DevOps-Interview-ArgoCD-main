@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         app: web-app
+        tamar: hamalka
     spec:
       containers:
       - name: app-container
