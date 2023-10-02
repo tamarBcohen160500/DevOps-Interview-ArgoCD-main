@@ -17,4 +17,4 @@ spec:
       - name: app-container
         image: web-app:v1
         ports:
-        - containerPort: 8080
+        - containerPort: 8888
