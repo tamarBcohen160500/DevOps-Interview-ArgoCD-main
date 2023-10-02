@@ -16,7 +16,7 @@ const (
 )
 
 var (
-	port = "8000"
+	port = "8080"
 )
 
 func init() {
