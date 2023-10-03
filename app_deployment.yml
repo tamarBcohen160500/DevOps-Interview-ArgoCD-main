@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: app-container
-        image: web-app:v1
+        image: ghcr.io/web-app:v1
         ports:
         - containerPort: 8888
