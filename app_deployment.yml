@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: app-container
-        image: ghcr.io/tamarbcohen160500/devops-interview-argocd-main:13.0
+        image: ghcr.io/tamarbcohen160500/devops-interview-argocd-main:15.0
         ports:
         - containerPort: 8888
