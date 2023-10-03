@@ -9,5 +9,6 @@ RUN GO111MODULE=off CGO_ENABLED=0 GOOS=${GOOS} GOARCH=${GOARCH} go build -a -o s
 # Final
 FROM ubuntu
 ENV PORT 8888
+COPY --from=build-env /src/server .
 CMD ["./server"]
 EXPOSE $PORT
